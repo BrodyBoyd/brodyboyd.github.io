@@ -1,0 +1,97 @@
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rancho-regular {
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: .1em;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+} 
+nav {
+  font-size: 2em;
+  background-color: black;
+  color: white;
+}
+.pa {
+  width: 100px;
+}
+.pz {
+  width: 66px;
+}
+.nav-link, .navbar-brand {
+  color: white;
+}
+.nav-link:hover, .navbar-brand:hover {
+  text-shadow: 0px 0px 25px white;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding-left: 1em;
+}
+
+body {
+  background-color: rgb(238, 211, 175);
+}
+
+main {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.header {
+  font-size: 4em;
+  text-decoration: underline;
+  padding-bottom: 1em;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.languages, .software {
+  display: flex;
+  flex-direction: column;
+}
+
+.languagesik, .softwareik {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 100px;
+}
+
+.java {
+  object-fit: cover;
+  width: 85px;
+}
+.soft {
+  width: 8%;
+  height: 100%;
+}
+
+hr {
+  border-top: 4px dotted navy;
+}
+@media only screen and (max-width:850px) {
+  .soft {
+    width: 25%;
+  }
+} 

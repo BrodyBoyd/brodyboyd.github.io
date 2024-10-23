@@ -1,0 +1,343 @@
+* {
+  padding: .34em;
+  margin: auto;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  background-color: lightblue;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border: solid black;
+}
+
+.main {
+  background-color: white;
+  border: black solid .2em;
+}
+.charity-logo {
+  width: 12em;
+justify-content: center;
+flex-shrink: 1;
+}
+
+header h1 {
+  font-size: 2.5em;
+  text-align: flex-end;
+  padding-top: .5em;
+}
+
+.donate-button {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.4em;
+  background-color: rgb(0, 14, 209);
+  margin-top: 2em;
+  border-style: double;
+  border-radius: 10px 20px 20px 20px;
+  text-align: center;
+  margin-bottom: 3%;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.donate-button a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(0, 14, 209);
+  padding: 0;
+  align-items: stretch;
+  list-style-type: none;
+  margin: 0;
+  position: fill;
+  font-size: 1.5em;
+  border: .1em solid black;
+}
+
+.navbar-link {
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+  align-items: stretch;
+  padding: .5em;
+  background-color: rgb(0, 14, 209);
+  color: white;
+}
+
+.navbar-link:hover, .navbar-link:focus {
+  background-color: rgb(94, 131, 255);
+}
+
+.social {
+  width: 100px;
+  flex-shrink: 1;
+}
+
+footer {
+  display: flex
+}
+
+.footer {
+  background-color: gray;
+  border: solid black;
+}
+.middle {
+  justify-content: center;
+  text-align: center;
+}
+
+.ranken {
+  width: 30px;
+}
+
+.right {
+  text-align: center;
+  width:auto;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.dotted {
+  font-size: 4em;
+  text-align: center;
+  text-decoration: underline dotted black;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width:720px) {
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  width: 60px;
+}
+
+.middle {
+  justify-content: center;
+  text-align: center;
+  width: 33%;
+}
+
+
+
+}
+
+@media only screen and (max-width:720px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .social {
+    width: 60px;
+  }
+  
+  .middle {
+    justify-content: center;
+    text-align: center;
+    width: 33%;
+  }
+  
+  .charity-logo {
+    width: 8em;
+  justify-content: center;
+  flex-shrink: 1;
+  }
+  
+  header h1 {
+    font-size: 1em;
+    text-align: flex-end;
+    padding-top: .5em;
+  }
+  
+  .donate-button {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.4em;
+    background-color: rgb(0, 14, 209);
+    margin-top: 2em;
+    border-style: double;
+    border-radius: 10px 20px 20px 20px;
+    text-align: center;
+    margin-bottom: 3%;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  }
+  
+  @media only screen and (max-width:410px)  {
+    .donate-button {
+      padding-left: .5em;
+      padding-right: .5em;
+      padding-top: .5em;
+      padding-bottom: .5em;
+      font-size: 1.4em;
+      background-color: rgb(0, 14, 209);
+      margin-top: 2em;
+      border-style: double;
+      border-radius: 10px 20px 20px 20px;
+      text-align: center;
+      margin-bottom: 3%;
+      justify-content: flex-end;
+      text-align: center;
+    }
+    
+  }
